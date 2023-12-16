@@ -27,9 +27,9 @@
 }
 
 .login_btn {
-	@apply cursor-pointer border rounded-full border-fuchsia-800 bg-cyan-600 text-white hover:bg-white hover:text-black flex items-center justify-center py-1.5 px-2.5 min-w-[100px];
+	@apply cursor-pointer border rounded-full border-fuchsia-800 bg-light-cyan text-gray-800 font-bold hover:bg-white hover:text-black flex items-center justify-center py-1.5 px-2.5 min-w-[100px];
 }
 
 .register_btn {
-	@apply cursor-pointer border rounded-full border-fuchsia-800 bg-pink-600 text-white hover:bg-white hover:text-black flex items-center justify-center py-1.5 px-2.5 min-w-[100px];
+	@apply cursor-pointer border rounded-full border-fuchsia-800 bg-rose-quartz-2 text-black font-bold hover:bg-white hover:text-black flex items-center justify-center py-1.5 px-2.5 min-w-[100px];
 }
