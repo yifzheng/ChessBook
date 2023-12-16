@@ -16,10 +16,13 @@
 .main {
 	width: 100vw;
 	min-height: 100vh;
-	position: fixed;
+	position: relative;
 	display: flex;
 	justify-content: center;
-	pointer-events: none;
+	align-items: center;
+	flex-direction: column;
+	z-index: 10;
+	padding: 0px 10px 0px 10px;
 }
 
 .flex-center {
@@ -27,9 +30,13 @@
 }
 
 .login_btn {
-	@apply cursor-pointer border rounded-full border-fuchsia-800 bg-light-cyan text-gray-800 font-bold hover:bg-white hover:text-black flex items-center justify-center py-1.5 px-2.5 min-w-[100px];
+	@apply cursor-pointer border-2 rounded-full border-rose-quartz bg-columbia-blue text-gray-800 font-bold hover:bg-white hover:text-black flex items-center justify-center py-1.5 px-2.5 min-w-[100px];
 }
 
 .register_btn {
-	@apply cursor-pointer border rounded-full border-fuchsia-800 bg-rose-quartz-2 text-black font-bold hover:bg-white hover:text-black flex items-center justify-center py-1.5 px-2.5 min-w-[100px];
+	@apply cursor-pointer border-2 rounded-full border-columbia-blue bg-rose-quartz-2 text-black font-bold hover:bg-white hover:text-black flex items-center justify-center py-1.5 px-2.5 min-w-[100px];
+}
+
+.title_text {
+	@apply mt-5 text-xl font-bold leading-[1.15] text-black sm:text-2xl pb-4 max-w-4xl;
 }
