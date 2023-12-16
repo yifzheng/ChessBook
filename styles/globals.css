@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,4 +10,26 @@
 	--french-gray: #b1b5c8ff;
 	--columbia-blue: #bfd5e2ff;
 	--light-cyan: #c7ebf0ff;
+	background-color: var(--rose-quartz-2);
+}
+
+.main {
+	width: 100vw;
+	min-height: 100vh;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.flex-center {
+	@apply flex justify-center items-center;
+}
+
+.login_btn {
+	@apply cursor-pointer border rounded-full border-fuchsia-800 bg-cyan-600 text-white hover:bg-white hover:text-black flex items-center justify-center py-1.5 px-2.5 min-w-[100px];
+}
+
+.register_btn {
+	@apply cursor-pointer border rounded-full border-fuchsia-800 bg-pink-600 text-white hover:bg-white hover:text-black flex items-center justify-center py-1.5 px-2.5 min-w-[100px];
 }
