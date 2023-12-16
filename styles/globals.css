@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--rose-quartz: #baa7b0ff;
+	--rose-quartz-2: #b2abbfff;
+	--french-gray: #b1b5c8ff;
+	--columbia-blue: #bfd5e2ff;
+	--light-cyan: #c7ebf0ff;
+}
