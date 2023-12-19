@@ -8,12 +8,15 @@ export const metadata = {
   }
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout ( { children } ) {
   return (
     <html lang="en">
-      <body>
+      <body className='glassmorphism-2'>
+        <div>
+          <div className="gradient" />
+        </div>
         <div className="main">
-            {children}
+          { children }
         </div>
       </body>
     </html>
