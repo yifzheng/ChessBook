@@ -33,14 +33,14 @@ export default function Home () {
         alt="App_logo"
         className="object-contain mix-blend-multiply aspect-auto absolute bottom-0 left-0 z-0"
       />
-      <div className="flex flex-col justify-center items-center z-1 pt-[60%] sm:pt-[30%] md:pt-[17%] z-1">
-        <h1 className="text-4xl px-10 font-bold leading-10 sm:text-6xl text-black pb-4 blue_gradient">
-          ChessBook
+      <div className="flex flex-col justify-center items-center z-1 pt-[55%] sm:pt-[30%] md:pt-[14%] lg:pt-[11%] z-1">
+        <h1 className="text-6xl px-10 font-bold leading-10 sm:text-8xl text-black py-10 blue_gradient">
+          <span className="text-shadow-lg">ChessBook</span>
         </h1>
         <h2 className="title_text blue_gradient mb-8">
           A place where passionate chess players can share their chess games in a global chess
           community
-        </h2> 
+        </h2>
       </div>
     </main>
   );
