@@ -18,7 +18,7 @@ export default function Home () {
   };
 
   return (
-    <main className="min-h-screen max-h-screen text-center">
+    <main className="min-h-screen text-center">
       <header className="absolute top-0 right-0 m-5 flex items-center gap-5 z-10">
         <button type="button" className="login_btn" onClick={ handleSignInClick } onBlur={ ( e ) => e.preventDefault() }>
           Sign In
@@ -30,7 +30,7 @@ export default function Home () {
       <Image
         src={ Chess }
         width={ 900 }
-        alt="App_logo"
+        alt="Chess_art"
         className="object-contain mix-blend-multiply aspect-auto absolute bottom-0 left-0 z-0"
       />
       <div className="flex flex-col justify-center items-center z-1 pt-[55%] sm:pt-[30%] md:pt-[14%] lg:pt-[11%] z-1">
