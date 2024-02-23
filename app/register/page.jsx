@@ -40,6 +40,7 @@ const Register = () => {
         />
         <InputGroup input_name={ "firstname" } type={ "text" } maxLength={ 20 } label_name={ "First Name" } />
         <InputGroup input_name={ "lastname" } type={ "text" } maxLength={ 20 } label_name={ "Last Name" } />
+        <InputGroup input_name={ "username" } type={ 'text' } maxLength={ 20 } />
         <InputGroup input_name={ "email" } type={ "text" } input_on_change={ handleEmailChange } label_name={ "Email" } />
         <InputGroup input_name={ "password" } type={ "password" } label_name={ "Password" } />
         <button type="button" className="min-w-full border-2 border-light-cyan rounded-lg h-12 bg-columbia-blue text-neutral-100 text-lg hover:bg-light-cyan hover:border-columbia-blue" onClick={ () => alert( "hello" ) }>Register</button>
